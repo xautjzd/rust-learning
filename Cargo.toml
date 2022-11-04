@@ -1,28 +1,9 @@
-[package]
-name = "rust-learning"
-version = "0.1.0"
-edition = "2021"
+[workspace]
 
-[[bin]]
-name = "example-enum"
-path = "src/example-enum/main.rs"
-
-[[bin]]
-name = "example-env"
-path = "src/example-env/main.rs"
-
-[[bin]]
-name = "example-stdin"
-path = "src/example-stdin/main.rs"
-
-[[bin]]
-name = "example-args"
-path = "src/example-args/main.rs"
-
-[[bin]]
-name = "example-file"
-path = "src/example-file/main.rs"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+members = [
+	"example-enum",
+	"example-env",
+	"example-stdin",
+	"example-args",
+	"example-file"
+]

@@ -3,5 +3,21 @@
 version = 3
 
 [[package]]
-name = "rust-learning"
+name = "example-args"
+version = "0.1.0"
+
+[[package]]
+name = "example-enum"
+version = "0.1.0"
+
+[[package]]
+name = "example-env"
+version = "0.1.0"
+
+[[package]]
+name = "example-file"
+version = "0.1.0"
+
+[[package]]
+name = "example-stdin"
 version = "0.1.0"
